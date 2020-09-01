@@ -35,3 +35,11 @@
     opacity: 0.9;
     
   }
+  h1 {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: rgb(3, 3, 2);
+   
+  }
