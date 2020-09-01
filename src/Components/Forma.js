@@ -47,19 +47,19 @@ class Forma extends React.Component{
             <div className="App">
                 
                 <form>
-                    Username
+                    <h1></h1>Username
                     <br/>
                     <input placeholder='Username' type='text' value={this.state.username} onChange={this.handleChangeUserName}/>
                     <br/><br/>
-                    Password
+                    <h1></h1>Password
                     <br/>
                     <input placeholder='Password:' id='submit' type='password' value={this.state.password} onChange={this.handleChangePassword}/>
                     <br/> <br/>
-                    Age
+                    <h1></h1>Age
                     <br/>
                     <input placeholder='Age' type='text' value={this.state.age} onChange={this.handleChangeAge}/>
                     <br/><br/>
-                    Gender
+                    <h1>Gender</h1>
                     <br/>
                     <label>Female</label>
                     <input name='gender'id='female'  type='radio' checked={this.state.female} onChange={this.handleCheckFemale}/>
@@ -69,7 +69,7 @@ class Forma extends React.Component{
                     <input name='gender' id=''type='radio' checked={this.state.prefernottosay} onChange={this.handleCheckprefernottosay}/>
                    <br/>
                    <br/>
-                   Occupation
+                   <h1>Occupation</h1>
                    <br/>
                    <input placeholder='Occupation' type='text' value={this.state.occupation} onChange={this.handleChangeOccupation}/>
                    <br/>
