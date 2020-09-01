@@ -47,9 +47,15 @@
     text-align:center;
     height: 50px;
     width: 500px;
+    border-radius: 30px;
+    outline-style: none;
   }
   input {
     text-align:center;
     height: 20px;
     width: 100px;
   }
+::placeholder {
+  font-size: 24px;
+
+}
