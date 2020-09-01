@@ -49,15 +49,15 @@ class Forma extends React.Component{
                 <form>
                     <h1>Username</h1>
                     <br/>
-                    <input placeholder='Username' type='text' value={this.state.username} onChange={this.handleChangeUserName}/>
+                    <input className="input" placeholder='Username' type='text' value={this.state.username} onChange={this.handleChangeUserName}/>
                     <br/><br/>
                     <h1>Password</h1>
                     <br/>
-                    <input placeholder='Password:' id='submit' type='password' value={this.state.password} onChange={this.handleChangePassword}/>
+                    <input className="input" placeholder='Password:' id='submit' type='password' value={this.state.password} onChange={this.handleChangePassword}/>
                     <br/> <br/>
                     <h1>Age</h1>
                     <br/>
-                    <input placeholder='Age' type='text' value={this.state.age} onChange={this.handleChangeAge}/>
+                    <input className="input" placeholder='Age' type='text' value={this.state.age} onChange={this.handleChangeAge}/>
                     <br/><br/>
                     <h1>Gender</h1>
                     <br/>
@@ -71,7 +71,7 @@ class Forma extends React.Component{
                    <br/>
                    <h1>Occupation</h1>
                    <br/>
-                   <input placeholder='Occupation' type='text' value={this.state.occupation} onChange={this.handleChangeOccupation}/>
+                   <input className="input" placeholder='Occupation' type='text' value={this.state.occupation} onChange={this.handleChangeOccupation}/>
                    <br/>
                    <br/>
                    <button onClick={this.handleSubmit}>Submit</button>
