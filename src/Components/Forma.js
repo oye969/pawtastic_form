@@ -45,7 +45,7 @@ class Forma extends React.Component{
     render(){
         return(
             <div className="App">
-                <h3>Login</h3>
+                
                 <form>
                     Username
                     <br/>
