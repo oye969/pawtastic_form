@@ -27,4 +27,11 @@
     cursor: pointer;
   
   }
- 
+  .img-display:hover{
+    border-radius: 25px;
+    width: 400px;
+    height: 300px;
+    padding: 12px;
+    opacity: 0.9;
+    
+  }
