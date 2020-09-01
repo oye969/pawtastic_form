@@ -12,9 +12,7 @@ function App() {
        <img className= "img-display" src="/images/dog.jpg" alt="img"/>
        <img className= "img-display" src="/images/dogc.jpg" alt="img"/>
        <img className= "img-display" src="/images/dogd.jpg" alt="img"/>
-       <img className= "img-display" src="/images/doge.jpg" alt="img"/>
-       <img className= "img-display" src="/images/dogf.jpg" alt="img"/>
-       <img className= "img-display" src="/images/dogg.jpg" alt="img"/>
+      
      </div>
      <div>
        <h1>FILL UP THE FORM</h1>
