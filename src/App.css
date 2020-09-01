@@ -59,3 +59,10 @@
   font-size: 24px;
 
 }
+button {
+  border-radius: 25px;
+  width: 250px;
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
