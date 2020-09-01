@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Forma from './Components/Forma'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Header-Back">
+        <h1 className="Header">PAWTASTIC VENTURES</h1>
+      </div>
+     <div>
+       <img className= "img-display" src="/images/dog.jpg" alt="img"/>
+       <img className= "img-display" src="/images/dogc.jpg" alt="img"/>
+       <img className= "img-display" src="/images/dogd.jpg" alt="img"/>
+       <img className= "img-display" src="/images/doge.jpg" alt="img"/>
+       <img className= "img-display" src="/images/dogf.jpg" alt="img"/>
+       <img className= "img-display" src="/images/dogg.jpg" alt="img"/>
+     </div>
+     <div>
+       <h1>FILL UP THE FORM</h1>
+       <Forma />
+     </div>
     </div>
   );
 }
