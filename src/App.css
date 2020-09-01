@@ -43,8 +43,13 @@
     color: rgb(3, 3, 2);
    
   }
-  input {
+  .input {
     text-align:center;
     height: 50px;
     width: 500px;
+  }
+  input {
+    text-align:center;
+    height: 20px;
+    width: 100px;
   }
