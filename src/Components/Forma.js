@@ -47,7 +47,7 @@ class Forma extends React.Component{
             <div className="App">
                 
                 <form>
-                    <h1></h1>Username
+                    <h1>Username</h1>
                     <br/>
                     <input placeholder='Username' type='text' value={this.state.username} onChange={this.handleChangeUserName}/>
                     <br/><br/>
