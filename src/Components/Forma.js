@@ -55,7 +55,7 @@ class Forma extends React.Component{
                     <br/>
                     <input placeholder='Password:' id='submit' type='password' value={this.state.password} onChange={this.handleChangePassword}/>
                     <br/> <br/>
-                    <h1></h1>Age
+                    <h1>Age</h1>
                     <br/>
                     <input placeholder='Age' type='text' value={this.state.age} onChange={this.handleChangeAge}/>
                     <br/><br/>
