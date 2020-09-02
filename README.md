@@ -1,5 +1,6 @@
 #wireframe
 <img src ="pawtastic_form/public/images/wireframe.jpg">
+![](images/wireframe.jpg)
 
 
 
