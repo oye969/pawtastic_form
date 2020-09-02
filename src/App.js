@@ -19,7 +19,6 @@ function App() {
      <div>
        <h1>FILL UP THE FORM</h1>
        <Forma />
-     
      </div>
      <br></br><br></br>
     </div>

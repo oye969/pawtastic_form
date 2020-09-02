@@ -67,14 +67,16 @@ class Forma extends React.Component{
                     <input name='gender' id='male'type='radio' checked={this.state.male} onChange={this.handleCheckMale}/>
                     <label>Prefer not to say</label>
                     <input name='gender' id=''type='radio' checked={this.state.prefernottosay} onChange={this.handleCheckprefernottosay}/>
-                   <br/>
-                   <br/>
-                   <h2>Occupation</h2>
-                   <br/>
-                   <input className="input" placeholder='Occupation' type='text' value={this.state.occupation} onChange={this.handleChangeOccupation}/>
-                   <br/>
-                   <br/>
-                   <br></br>
+                    <br/>
+                    <br/>
+                    <h2>Occupation</h2>
+                    <br/>
+                    <input className="input" placeholder='Occupation' type='text' value={this.state.occupation} onChange={this.handleChangeOccupation}/>
+                    <br/>
+                    <br/>
+                    <input type="checkbox" id="toggle" class="checkbox" />
+                    <label for="toggle" class="switch"></label>
+                    <br></br><br></br>
                    <button onClick={this.handleSubmit}>Submit</button>
                 </form>
             </div>
