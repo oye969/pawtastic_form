@@ -4,6 +4,7 @@
   text-align: center;
 
 }
+
 .app {
   background-color: rgb(171, 206, 193);
   width: 1200px;
@@ -18,57 +19,64 @@
   background-color: rgb(98, 201, 161);
 
 }
-  .Header {
-    font-size: 60px;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 10px;
-    word-spacing: 10px;
-    color: rgb(3, 3, 2);
-    padding-top: 40px;
-    padding-bottom: 40px;
+
+.Header {
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  color: rgb(3, 3, 2);
+  padding-top: 40px;
+  padding-bottom: 40px;
   
-  }
-  .img-display {
-    border-radius: 25px;
-    width: 400px;
-    height: 300px;
-    padding: 12px;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-    cursor: pointer;
+}
+
+.img-display {
+  border-radius: 25px;
+  width: 400px;
+  height: 300px;
+  padding: 12px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  cursor: pointer;
   
-  }
-  .img-display:hover{
-    border-radius: 25px;
-    width: 400px;
-    height: 300px;
-    padding: 12px;
-    opacity: 0.9;
+}
+
+.img-display:hover{
+  border-radius: 25px;
+  width: 400px;
+  height: 300px;
+  padding: 12px;
+  opacity: 0.9;
     
-  }
-  h1 {
-    font-size: 60px;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 3px;
-    word-spacing: 5px;
-    color: rgb(3, 3, 2);
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  color: rgb(3, 3, 2);
    
-  }
-  .input {
-    text-align:center;
-    height: 50px;
-    width: 500px;
-    border-radius: 30px;
-    outline-style: none;
-  }
-  input {
-    text-align:center;
-    height: 20px;
-    width: 100px;
-  }
+}
+
+.input {
+  text-align:center;
+  height: 50px;
+  width: 500px;
+  border-radius: 30px;
+  outline-style: none;
+}
+
+input {
+  text-align:center;
+  height: 20px;
+  width: 100px;
+}
+
 ::placeholder {
   font-size: 24px;
-
 }
+
 button {
   border-radius: 25px;
   width: 250px;
@@ -79,12 +87,15 @@ button {
   background-color: rgb(98, 201, 161);
   outline-style: none;
 }
+
 label  {
   font-size: 30px;
 }
+
 h2 {
   font-size: 30px;
 }
+
 .switch { 
   position : relative ;
   display : inline-block;
@@ -93,6 +104,7 @@ h2 {
   background-color: #eee;
   border-radius: 20px;
 }
+
 .switch::after {
   content: '';
   position: absolute;
@@ -104,12 +116,15 @@ h2 {
   left: 1px;
   transition: all 0.3s;
 }
+
 .checkbox:checked + .switch::after {
   left : 20px; 
 }
+
 .checkbox:checked + .switch {
   background-color: rgb(98, 201, 161);
 }
+
 .checkbox { 
   display : none;
 }
