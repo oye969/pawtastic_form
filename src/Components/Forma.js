@@ -74,6 +74,7 @@ class Forma extends React.Component{
                    <input className="input" placeholder='Occupation' type='text' value={this.state.occupation} onChange={this.handleChangeOccupation}/>
                    <br/>
                    <br/>
+                   <br></br>
                    <button onClick={this.handleSubmit}>Submit</button>
                 </form>
             </div>
