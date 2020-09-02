@@ -110,3 +110,6 @@ h2 {
 .checkbox:checked + .switch {
   background-color: rgb(98, 201, 161);
 }
+.checkbox { 
+  display : none;
+}
