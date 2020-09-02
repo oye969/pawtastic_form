@@ -1,5 +1,5 @@
 #wireframe
-<img src ="images/wireframe.jpg">
+<img src ="pawtastic_form/public/images/wireframe.jpg">
 
 
 
