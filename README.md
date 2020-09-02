@@ -1,5 +1,5 @@
 #wireframe
-<img src ="pawtastic_form/public/images/wireframe.jpg">
+<img src ="/public/images/wireframe.jpg">
 ![](images/wireframe.jpg)
 
 
